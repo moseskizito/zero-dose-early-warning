@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>UG-EWS-6a047b81-1cb3-491d-90f3-961ec2cbd2c6</identifier>
+  <sender>situationroom@opm.go.ug.example</sender>
+  <sent>2026-08-15T12:00:00+03:00</sent>
+  <status>Exercise</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <info>
+    <language>en-UG</language>
+    <category>Health</category>
+    <event>Zero-dose children risk</event>
+    <responseType>Execute</responseType>
+    <urgency>Immediate</urgency>
+    <severity>Severe</severity>
+    <certainty>Observed</certainty>
+    <expires>2026-09-14T12:00:00+03:00</expires>
+    <senderName>Uganda National Situation Room (demo)</senderName>
+    <headline>ALERT: immunisation coverage falling in Mukono District</headline>
+    <description>Three-month Penta1 coverage is 66%; about 5,571 children in the last 12 months have received no Penta1 dose. Trigger: coverage falling below district baseline (CUSUM 23.7). SIMULATED DATA - EXERCISE.</description>
+    <instruction>District Health Team to verify vaccine stock and session reports, and plan catch-up outreach for unreached parishes.</instruction>
+    <area>
+      <areaDesc>Mukono District, Central Region, Uganda</areaDesc>
+      <polygon>0.8453,32.7927 0.7234,32.8586 0.6700,32.9511 0.5870,33.0316 0.5586,32.9882 0.5102,32.9850 0.4149,33.0286 0.3600,33.0205 0.2566,32.9188 0.1743,32.8623 0.1404,32.8607 -0.1631,32.6050 -0.1631,32.4931 0.0024,32.6217 0.2154,32.6315 0.3346,32.6861 0.4262,32.6631 0.5565,32.6702 0.5876,32.7534 0.7523,32.7887 0.8453,32.7927</polygon>
+      <geocode>
+        <valueName>UG-DISTRICT</valueName>
+        <value>UG-D085</value>
+      </geocode>
+    </area>
+  </info>
+</alert>

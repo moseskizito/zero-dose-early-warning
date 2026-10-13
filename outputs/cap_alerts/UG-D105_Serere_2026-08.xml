@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>UG-EWS-5c60bb56-b314-400a-abd6-e642638a8f08</identifier>
+  <sender>situationroom@opm.go.ug.example</sender>
+  <sent>2026-08-15T12:00:00+03:00</sent>
+  <status>Exercise</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <info>
+    <language>en-UG</language>
+    <category>Health</category>
+    <event>Zero-dose children risk</event>
+    <responseType>Execute</responseType>
+    <urgency>Immediate</urgency>
+    <severity>Severe</severity>
+    <certainty>Observed</certainty>
+    <expires>2026-09-14T12:00:00+03:00</expires>
+    <senderName>Uganda National Situation Room (demo)</senderName>
+    <headline>ALERT: immunisation coverage falling in Serere District</headline>
+    <description>Three-month Penta1 coverage is 65%; about 3,933 children in the last 12 months have received no Penta1 dose. Trigger: coverage falling below district baseline (CUSUM 26.5). SIMULATED DATA - EXERCISE.</description>
+    <instruction>District Health Team to verify vaccine stock and session reports, and plan catch-up outreach for unreached parishes.</instruction>
+    <area>
+      <areaDesc>Serere District, Eastern Region, Uganda</areaDesc>
+      <polygon>1.3355,33.4050 1.3706,33.3783 1.3554,33.2878 1.3689,33.2080 1.5720,33.2147 1.6158,33.2464 1.6992,33.2548 1.6992,33.3133 1.7168,33.3542 1.6934,33.3688 1.6758,33.4361 1.6144,33.4653 1.5852,33.5091 1.5677,33.5793 1.5917,33.7154 1.4131,33.6669 1.3768,33.5894 1.3301,33.5593 1.3155,33.4545 1.3389,33.4283 1.3355,33.4050</polygon>
+      <geocode>
+        <valueName>UG-DISTRICT</valueName>
+        <value>UG-D105</value>
+      </geocode>
+    </area>
+  </info>
+</alert>

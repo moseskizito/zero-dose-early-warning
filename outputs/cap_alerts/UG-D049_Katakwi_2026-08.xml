@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>UG-EWS-1c8a843d-8add-4046-b228-fa59e4f09cfc</identifier>
+  <sender>situationroom@opm.go.ug.example</sender>
+  <sent>2026-08-15T12:00:00+03:00</sent>
+  <status>Exercise</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <info>
+    <language>en-UG</language>
+    <category>Health</category>
+    <event>Zero-dose children risk</event>
+    <responseType>Execute</responseType>
+    <urgency>Immediate</urgency>
+    <severity>Severe</severity>
+    <certainty>Observed</certainty>
+    <expires>2026-09-14T12:00:00+03:00</expires>
+    <senderName>Uganda National Situation Room (demo)</senderName>
+    <headline>ALERT: immunisation coverage falling in Katakwi District</headline>
+    <description>Three-month Penta1 coverage is 56%; about 5,620 children in the last 12 months have received no Penta1 dose. Trigger: coverage falling below district baseline (CUSUM 38.4). SIMULATED DATA - EXERCISE.</description>
+    <instruction>District Health Team to verify vaccine stock and session reports, and plan catch-up outreach for unreached parishes.</instruction>
+    <area>
+      <areaDesc>Katakwi District, Eastern Region, Uganda</areaDesc>
+      <polygon>1.7083,33.8090 1.7713,33.8699 1.8454,33.8517 1.8967,33.8970 2.0740,33.8909 2.1127,33.9071 2.2095,33.8785 2.3043,33.9057 2.1114,34.2029 1.6313,34.2117 1.6423,34.0422 1.6233,33.9448 1.6641,33.8566 1.6683,33.8106 1.7083,33.8090</polygon>
+      <geocode>
+        <valueName>UG-DISTRICT</valueName>
+        <value>UG-D049</value>
+      </geocode>
+    </area>
+  </info>
+</alert>

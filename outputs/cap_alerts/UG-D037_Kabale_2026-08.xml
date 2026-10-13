@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>UG-EWS-85a0e6d5-8759-4d29-82e9-c9b23c2950b8</identifier>
+  <sender>situationroom@opm.go.ug.example</sender>
+  <sent>2026-08-15T12:00:00+03:00</sent>
+  <status>Exercise</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <info>
+    <language>en-UG</language>
+    <category>Health</category>
+    <event>Zero-dose children risk</event>
+    <responseType>Execute</responseType>
+    <urgency>Immediate</urgency>
+    <severity>Severe</severity>
+    <certainty>Observed</certainty>
+    <expires>2026-09-14T12:00:00+03:00</expires>
+    <senderName>Uganda National Situation Room (demo)</senderName>
+    <headline>ALERT: immunisation coverage falling in Kabale District</headline>
+    <description>Three-month Penta1 coverage is 60%; about 9,336 children in the last 12 months have received no Penta1 dose. Trigger: coverage falling below district baseline (CUSUM 29.0). SIMULATED DATA - EXERCISE.</description>
+    <instruction>District Health Team to verify vaccine stock and session reports, and plan catch-up outreach for unreached parishes.</instruction>
+    <area>
+      <areaDesc>Kabale District, Western Region, Uganda</areaDesc>
+      <polygon>-1.3869,30.0660 -1.4250,30.0387 -1.4729,29.9385 -1.4536,29.8807 -1.3703,29.8642 -1.3239,29.8250 -1.2033,29.7703 -1.1832,29.7969 -1.1078,29.7274 -1.0250,29.7719 -1.0283,29.8260 -1.0640,29.8697 -1.0441,29.9001 -1.0867,30.0684 -1.1402,30.0887 -1.1643,30.1793 -1.1935,30.1774 -1.1608,30.2344 -1.1526,30.2909 -1.2172,30.2567 -1.2595,30.2122 -1.2775,30.1656 -1.3451,30.1472 -1.3869,30.0660</polygon>
+      <geocode>
+        <valueName>UG-DISTRICT</valueName>
+        <value>UG-D037</value>
+      </geocode>
+    </area>
+  </info>
+</alert>

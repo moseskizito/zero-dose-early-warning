@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>UG-EWS-409209f2-01d6-4892-afe2-6a5a884b0b00</identifier>
+  <sender>situationroom@opm.go.ug.example</sender>
+  <sent>2026-08-15T12:00:00+03:00</sent>
+  <status>Exercise</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <info>
+    <language>en-UG</language>
+    <category>Health</category>
+    <event>Zero-dose children risk</event>
+    <responseType>Execute</responseType>
+    <urgency>Immediate</urgency>
+    <severity>Severe</severity>
+    <certainty>Observed</certainty>
+    <expires>2026-09-14T12:00:00+03:00</expires>
+    <senderName>Uganda National Situation Room (demo)</senderName>
+    <headline>ALERT: immunisation coverage falling in Kyegegwa District</headline>
+    <description>Three-month Penta1 coverage is 56%; about 10,924 children in the last 12 months have received no Penta1 dose. Trigger: coverage falling below district baseline (CUSUM 33.6). SIMULATED DATA - EXERCISE.</description>
+    <instruction>District Health Team to verify vaccine stock and session reports, and plan catch-up outreach for unreached parishes.</instruction>
+    <area>
+      <areaDesc>Kyegegwa District, Western Region, Uganda</areaDesc>
+      <polygon>0.2067,31.0088 0.1858,30.8528 0.2425,30.8614 0.2837,30.9198 0.3387,30.9026 0.3988,30.9198 0.4143,30.8837 0.4624,30.8854 0.4641,30.9198 0.5552,30.9198 0.5724,30.9524 0.6325,30.9524 0.6789,30.8906 0.6978,30.9373 0.6330,31.1978 0.5666,31.2535 0.5239,31.2441 0.5044,31.1599 0.4851,31.1378 0.4178,31.1097 0.3448,31.1264 0.2067,31.0088</polygon>
+      <geocode>
+        <valueName>UG-DISTRICT</valueName>
+        <value>UG-D063</value>
+      </geocode>
+    </area>
+  </info>
+</alert>

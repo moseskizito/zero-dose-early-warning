@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>UG-EWS-7f2ee777-6a38-48bd-8080-a06e2eed9f6d</identifier>
+  <sender>situationroom@opm.go.ug.example</sender>
+  <sent>2026-08-15T12:00:00+03:00</sent>
+  <status>Exercise</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <info>
+    <language>en-UG</language>
+    <category>Health</category>
+    <event>Zero-dose children risk</event>
+    <responseType>Execute</responseType>
+    <urgency>Immediate</urgency>
+    <severity>Severe</severity>
+    <certainty>Observed</certainty>
+    <expires>2026-09-14T12:00:00+03:00</expires>
+    <senderName>Uganda National Situation Room (demo)</senderName>
+    <headline>ALERT: immunisation coverage falling in Nakasongola District</headline>
+    <description>Three-month Penta1 coverage is 66%; about 1,814 children in the last 12 months have received no Penta1 dose. Trigger: coverage falling below district baseline (CUSUM 18.9). SIMULATED DATA - EXERCISE.</description>
+    <instruction>District Health Team to verify vaccine stock and session reports, and plan catch-up outreach for unreached parishes.</instruction>
+    <area>
+      <areaDesc>Nakasongola District, Central Region, Uganda</areaDesc>
+      <polygon>1.6775,32.1776 1.6486,32.3029 1.6238,32.3177 1.5672,32.4537 1.5213,32.5061 1.5205,32.5556 1.4627,32.6010 1.4705,32.6880 1.3879,32.6907 1.3640,32.7489 1.3309,32.7762 1.1827,32.7934 1.0812,32.7803 1.0752,32.7262 1.1446,32.6749 1.1358,32.6399 0.9680,32.6239 0.9763,32.5597 1.0168,32.4687 1.0904,32.4060 1.1524,32.3964 1.2002,32.3478 1.2466,32.2474 1.4130,32.0816 1.4759,31.9595 1.5284,31.9948 1.5510,32.0405 1.6478,32.1042 1.6775,32.1776</polygon>
+      <geocode>
+        <valueName>UG-DISTRICT</valueName>
+        <value>UG-D088</value>
+      </geocode>
+    </area>
+  </info>
+</alert>

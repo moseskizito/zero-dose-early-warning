@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>UG-EWS-575ef213-544a-4770-a749-c9d620ff03b1</identifier>
+  <sender>situationroom@opm.go.ug.example</sender>
+  <sent>2026-08-15T12:00:00+03:00</sent>
+  <status>Exercise</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <info>
+    <language>en-UG</language>
+    <category>Health</category>
+    <event>Zero-dose children risk</event>
+    <responseType>Execute</responseType>
+    <urgency>Immediate</urgency>
+    <severity>Severe</severity>
+    <certainty>Observed</certainty>
+    <expires>2026-09-14T12:00:00+03:00</expires>
+    <senderName>Uganda National Situation Room (demo)</senderName>
+    <headline>ALERT: immunisation coverage falling in Kisoro District</headline>
+    <description>Three-month Penta1 coverage is 64%; about 5,796 children in the last 12 months have received no Penta1 dose. Trigger: coverage falling below district baseline (CUSUM 23.5). SIMULATED DATA - EXERCISE.</description>
+    <instruction>District Health Team to verify vaccine stock and session reports, and plan catch-up outreach for unreached parishes.</instruction>
+    <area>
+      <areaDesc>Kisoro District, Western Region, Uganda</areaDesc>
+      <polygon>-1.3239,29.8250 -1.3309,29.7982 -1.3663,29.7749 -1.3482,29.7348 -1.3890,29.6391 -1.3884,29.5779 -1.3106,29.5871 -1.2792,29.5715 -1.2348,29.5814 -1.1818,29.5570 -1.0779,29.5701 -0.9903,29.5515 -1.0261,29.6040 -1.0756,29.7546 -1.1188,29.7304 -1.1832,29.7969 -1.2033,29.7703 -1.3239,29.8250</polygon>
+      <geocode>
+        <valueName>UG-DISTRICT</valueName>
+        <value>UG-D055</value>
+      </geocode>
+    </area>
+  </info>
+</alert>

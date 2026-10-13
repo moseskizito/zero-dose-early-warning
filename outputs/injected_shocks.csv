@@ -1,0 +1,18 @@
+district_code,district,shock_start,shock,depth
+UG-D003,Agago,2025-06,outreach suspended,0.35
+UG-D011,Budaka,2025-10,outreach suspended,0.39
+UG-D014,Buhweju,2025-02,vaccine stock-out,0.39
+UG-D037,Kabale,2025-03,health-worker strike,0.4
+UG-D045,Kamwenge,2025-09,vaccine stock-out,0.3
+UG-D049,Katakwi,2025-06,vaccine stock-out,0.37
+UG-D055,Kisoro,2025-03,vaccine stock-out,0.34
+UG-D063,Kyegegwa,2025-09,health-worker strike,0.48
+UG-D073,Masaka,2026-02,health-worker strike,0.41
+UG-D074,Masindi,2026-01,health-worker strike,0.44
+UG-D081,Moroto,2026-04,vaccine stock-out,0.35
+UG-D085,Mukono,2025-01,vaccine stock-out,0.31
+UG-D088,Nakasongola,2025-10,vaccine stock-out,0.27
+UG-D097,Otuke,2026-02,health-worker strike,0.29
+UG-D103,Rukungiri,2025-12,vaccine stock-out,0.41
+UG-D105,Serere,2025-10,insecurity / displacement,0.33
+UG-D112,Zombo,2025-02,health-worker strike,0.49

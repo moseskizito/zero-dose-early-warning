@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>UG-EWS-b0179b94-7185-404c-aecd-90f8152a0cf8</identifier>
+  <sender>situationroom@opm.go.ug.example</sender>
+  <sent>2026-08-15T12:00:00+03:00</sent>
+  <status>Exercise</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <info>
+    <language>en-UG</language>
+    <category>Health</category>
+    <event>Zero-dose children risk</event>
+    <responseType>Execute</responseType>
+    <urgency>Immediate</urgency>
+    <severity>Severe</severity>
+    <certainty>Observed</certainty>
+    <expires>2026-09-14T12:00:00+03:00</expires>
+    <senderName>Uganda National Situation Room (demo)</senderName>
+    <headline>ALERT: immunisation coverage falling in Zombo District</headline>
+    <description>Three-month Penta1 coverage is 39%; about 2,808 children in the last 12 months have received no Penta1 dose. Trigger: coverage falling below district baseline (CUSUM 24.8). SIMULATED DATA - EXERCISE.</description>
+    <instruction>District Health Team to verify vaccine stock and session reports, and plan catch-up outreach for unreached parishes.</instruction>
+    <area>
+      <areaDesc>Zombo District, Northern Region, Uganda</areaDesc>
+      <polygon>2.3321,30.8718 2.3760,30.8198 2.4344,30.8049 2.4451,30.7106 2.5195,30.7370 2.5931,30.7353 2.6758,30.7708 2.7373,30.9660 2.6148,30.9888 2.5889,31.0483 2.5247,31.0693 2.4870,31.0548 2.4681,31.0243 2.4318,31.0185 2.4260,30.9764 2.4054,30.9680 2.4056,30.9309 2.3460,30.9006 2.3321,30.8718</polygon>
+      <geocode>
+        <valueName>UG-DISTRICT</valueName>
+        <value>UG-D112</value>
+      </geocode>
+    </area>
+  </info>
+</alert>

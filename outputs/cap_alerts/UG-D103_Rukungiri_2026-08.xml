@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>UG-EWS-d41a5c17-b07d-4237-a67d-6f913f61d3e5</identifier>
+  <sender>situationroom@opm.go.ug.example</sender>
+  <sent>2026-08-15T12:00:00+03:00</sent>
+  <status>Exercise</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <info>
+    <language>en-UG</language>
+    <category>Health</category>
+    <event>Zero-dose children risk</event>
+    <responseType>Execute</responseType>
+    <urgency>Immediate</urgency>
+    <severity>Severe</severity>
+    <certainty>Observed</certainty>
+    <expires>2026-09-14T12:00:00+03:00</expires>
+    <senderName>Uganda National Situation Room (demo)</senderName>
+    <headline>ALERT: immunisation coverage falling in Rukungiri District</headline>
+    <description>Three-month Penta1 coverage is 60%; about 3,367 children in the last 12 months have received no Penta1 dose. Trigger: coverage falling below district baseline (CUSUM 26.9). SIMULATED DATA - EXERCISE.</description>
+    <instruction>District Health Team to verify vaccine stock and session reports, and plan catch-up outreach for unreached parishes.</instruction>
+    <area>
+      <areaDesc>Rukungiri District, Western Region, Uganda</areaDesc>
+      <polygon>-0.4424,29.6294 -0.3580,29.6439 -0.3702,29.8460 -0.4017,29.9141 -0.4431,29.9430 -0.5329,29.9403 -0.5708,29.9260 -0.5841,29.8974 -0.6216,29.9133 -0.6738,29.9803 -0.7168,29.9988 -0.7600,30.0582 -0.8371,30.0573 -0.9009,30.0379 -0.9315,30.0778 -0.9744,30.0763 -1.0434,30.0431 -1.0867,30.0684 -1.0441,29.9001 -0.9240,29.8303 -0.8848,29.8465 -0.8405,29.8234 -0.7589,29.8395 -0.6703,29.7820 -0.6137,29.7758 -0.6097,29.7272 -0.5829,29.7088 -0.4323,29.7101 -0.4424,29.6294</polygon>
+      <geocode>
+        <valueName>UG-DISTRICT</valueName>
+        <value>UG-D103</value>
+      </geocode>
+    </area>
+  </info>
+</alert>

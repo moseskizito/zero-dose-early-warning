@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>UG-EWS-d8f01224-abfe-4a52-b678-74659db76e23</identifier>
+  <sender>situationroom@opm.go.ug.example</sender>
+  <sent>2026-08-15T12:00:00+03:00</sent>
+  <status>Exercise</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <info>
+    <language>en-UG</language>
+    <category>Health</category>
+    <event>Zero-dose children risk</event>
+    <responseType>Execute</responseType>
+    <urgency>Immediate</urgency>
+    <severity>Severe</severity>
+    <certainty>Observed</certainty>
+    <expires>2026-09-14T12:00:00+03:00</expires>
+    <senderName>Uganda National Situation Room (demo)</senderName>
+    <headline>ALERT: immunisation coverage falling in Agago District</headline>
+    <description>Three-month Penta1 coverage is 54%; about 7,170 children in the last 12 months have received no Penta1 dose. Trigger: coverage falling below district baseline (CUSUM 31.2). SIMULATED DATA - EXERCISE.</description>
+    <instruction>District Health Team to verify vaccine stock and session reports, and plan catch-up outreach for unreached parishes.</instruction>
+    <area>
+      <areaDesc>Agago District, Northern Region, Uganda</areaDesc>
+      <polygon>3.2687,33.5500 2.9306,33.5712 2.7833,33.6038 2.7355,33.5526 2.6687,33.5247 2.5964,33.5342 2.5938,33.4771 2.6293,33.4321 2.6046,33.3982 2.6159,33.3536 2.5886,33.3181 2.6118,33.1287 2.7107,33.0560 2.7399,33.0823 2.7458,33.2110 2.7809,33.2431 2.8481,33.2490 2.8832,33.2285 2.8949,33.1116 2.9300,33.1057 2.9767,33.1554 3.0177,33.1554 3.1880,33.2143 3.1782,33.2729 3.1960,33.3600 3.2624,33.3515 3.2601,33.4167 3.2995,33.3893 3.2687,33.5500</polygon>
+      <geocode>
+        <valueName>UG-DISTRICT</valueName>
+        <value>UG-D003</value>
+      </geocode>
+    </area>
+  </info>
+</alert>

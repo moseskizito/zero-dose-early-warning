@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>UG-EWS-ed107ce3-afcf-4642-9bb7-e73f5435fe7a</identifier>
+  <sender>situationroom@opm.go.ug.example</sender>
+  <sent>2026-08-15T12:00:00+03:00</sent>
+  <status>Exercise</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <info>
+    <language>en-UG</language>
+    <category>Health</category>
+    <event>Zero-dose children risk</event>
+    <responseType>Execute</responseType>
+    <urgency>Immediate</urgency>
+    <severity>Severe</severity>
+    <certainty>Observed</certainty>
+    <expires>2026-09-14T12:00:00+03:00</expires>
+    <senderName>Uganda National Situation Room (demo)</senderName>
+    <headline>ALERT: immunisation coverage falling in Moroto District</headline>
+    <description>Three-month Penta1 coverage is 58%; about 6,035 children in the last 12 months have received no Penta1 dose. Trigger: coverage falling below district baseline (CUSUM 25.2). SIMULATED DATA - EXERCISE.</description>
+    <instruction>District Health Team to verify vaccine stock and session reports, and plan catch-up outreach for unreached parishes.</instruction>
+    <area>
+      <areaDesc>Moroto District, Northern Region, Uganda</areaDesc>
+      <polygon>3.0975,34.5456 2.9287,34.5847 2.8601,34.6405 2.8810,34.6850 2.8444,34.7369 2.6856,34.7765 2.5980,34.8187 2.5878,34.8418 2.6049,34.8656 2.5224,34.8871 2.4773,34.9236 2.4546,34.9209 2.4115,34.8679 2.3868,34.8591 2.2107,34.9223 2.1130,34.8416 2.3098,34.8176 2.4058,34.7840 2.5210,34.7408 2.5594,34.7024 2.5786,34.6448 2.6409,34.6448 2.6649,34.5632 2.7753,34.4385 2.8328,34.2517 2.9178,34.2745 3.0817,34.3863 3.0787,34.5081 3.0975,34.5456</polygon>
+      <geocode>
+        <valueName>UG-DISTRICT</valueName>
+        <value>UG-D081</value>
+      </geocode>
+    </area>
+  </info>
+</alert>

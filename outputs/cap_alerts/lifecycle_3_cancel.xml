@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>UG-EWS-2b1d0270-084d-45e3-b797-285e63a4cbfb</identifier>
+  <sender>situationroom@opm.go.ug.example</sender>
+  <sent>2026-09-29T12:00:00+03:00</sent>
+  <status>Exercise</status>
+  <msgType>Cancel</msgType>
+  <scope>Public</scope>
+  <references>situationroom@opm.go.ug.example,UG-EWS-af2be81a-69ed-4c94-af6a-5d59d2a6011b,2026-08-22T12:00:00+03:00</references>
+  <info>
+    <language>en-UG</language>
+    <category>Health</category>
+    <event>Zero-dose children risk</event>
+    <responseType>AllClear</responseType>
+    <urgency>Past</urgency>
+    <severity>Minor</severity>
+    <certainty>Observed</certainty>
+    <expires>2026-10-29T12:00:00+03:00</expires>
+    <senderName>Uganda National Situation Room (demo)</senderName>
+    <headline>CANCEL: coverage restored</headline>
+    <description>Coverage back above 90%. SIMULATED - EXERCISE.</description>
+    <instruction>Resume routine monitoring.</instruction>
+    <area>
+      <areaDesc>Kamwenge District, Western Region, Uganda</areaDesc>
+      <polygon>0.5412,30.4281 0.5122,30.4645 0.4452,30.4920 0.4308,30.5237 0.2975,30.5504 0.3249,30.6311 0.3954,30.7188 0.4194,30.7806 0.4023,30.8339 0.4126,30.9078 0.3593,30.9181 0.3387,30.9026 0.2837,30.9198 0.2425,30.8614 0.1858,30.8528 0.1841,30.6878 0.1004,30.4749 -0.0283,30.4007 -0.1208,30.4276 -0.1559,30.4641 -0.1728,30.4165 -0.0977,30.1980 0.2635,30.2687 0.2276,30.3618 0.3708,30.3892 0.4234,30.3656 0.4853,30.3763 0.5412,30.4281</polygon>
+      <geocode>
+        <valueName>UG-DISTRICT</valueName>
+        <value>UG-D045</value>
+      </geocode>
+    </area>
+  </info>
+</alert>

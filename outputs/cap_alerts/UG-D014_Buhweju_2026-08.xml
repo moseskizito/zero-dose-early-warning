@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>UG-EWS-3737ccce-8221-4c51-8839-e6749f4fbc5b</identifier>
+  <sender>situationroom@opm.go.ug.example</sender>
+  <sent>2026-08-15T12:00:00+03:00</sent>
+  <status>Exercise</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <info>
+    <language>en-UG</language>
+    <category>Health</category>
+    <event>Zero-dose children risk</event>
+    <responseType>Execute</responseType>
+    <urgency>Immediate</urgency>
+    <severity>Severe</severity>
+    <certainty>Observed</certainty>
+    <expires>2026-09-14T12:00:00+03:00</expires>
+    <senderName>Uganda National Situation Room (demo)</senderName>
+    <headline>ALERT: immunisation coverage falling in Buhweju District</headline>
+    <description>Three-month Penta1 coverage is 67%; about 4,359 children in the last 12 months have received no Penta1 dose. Trigger: coverage falling below district baseline (CUSUM 28.8). SIMULATED DATA - EXERCISE.</description>
+    <instruction>District Health Team to verify vaccine stock and session reports, and plan catch-up outreach for unreached parishes.</instruction>
+    <area>
+      <areaDesc>Buhweju District, Western Region, Uganda</areaDesc>
+      <polygon>-0.2116,30.3234 -0.2903,30.4259 -0.2529,30.4629 -0.2559,30.5036 -0.3837,30.4968 -0.4124,30.4670 -0.4460,30.4700 -0.4567,30.3380 -0.4920,30.3262 -0.4174,30.1378 -0.3075,30.1457 -0.2116,30.3234</polygon>
+      <geocode>
+        <valueName>UG-DISTRICT</valueName>
+        <value>UG-D014</value>
+      </geocode>
+    </area>
+  </info>
+</alert>

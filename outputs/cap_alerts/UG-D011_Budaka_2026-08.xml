@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>UG-EWS-d0f5d1b8-7f11-4b8e-a5ed-0b8679f8cb0e</identifier>
+  <sender>situationroom@opm.go.ug.example</sender>
+  <sent>2026-08-15T12:00:00+03:00</sent>
+  <status>Exercise</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <info>
+    <language>en-UG</language>
+    <category>Health</category>
+    <event>Zero-dose children risk</event>
+    <responseType>Execute</responseType>
+    <urgency>Immediate</urgency>
+    <severity>Severe</severity>
+    <certainty>Observed</certainty>
+    <expires>2026-09-14T12:00:00+03:00</expires>
+    <senderName>Uganda National Situation Room (demo)</senderName>
+    <headline>ALERT: immunisation coverage falling in Budaka District</headline>
+    <description>Three-month Penta1 coverage is 62%; about 5,413 children in the last 12 months have received no Penta1 dose. Trigger: coverage falling below district baseline (CUSUM 27.4). SIMULATED DATA - EXERCISE.</description>
+    <instruction>District Health Team to verify vaccine stock and session reports, and plan catch-up outreach for unreached parishes.</instruction>
+    <area>
+      <areaDesc>Budaka District, Eastern Region, Uganda</areaDesc>
+      <polygon>1.1145,34.1298 1.0532,34.0981 1.0510,34.0773 0.9482,33.9547 0.9272,33.9007 0.9390,33.8436 1.0290,33.8488 1.0897,33.9154 1.1216,33.8864 1.1679,33.9038 1.1708,33.9819 1.1145,34.1298</polygon>
+      <geocode>
+        <valueName>UG-DISTRICT</valueName>
+        <value>UG-D011</value>
+      </geocode>
+    </area>
+  </info>
+</alert>

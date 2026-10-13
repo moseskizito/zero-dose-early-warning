@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>UG-EWS-b259004d-20d9-408e-b545-29231b3d65df</identifier>
+  <sender>situationroom@opm.go.ug.example</sender>
+  <sent>2026-08-15T12:00:00+03:00</sent>
+  <status>Exercise</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <info>
+    <language>en-UG</language>
+    <category>Health</category>
+    <event>Zero-dose children risk</event>
+    <responseType>Execute</responseType>
+    <urgency>Immediate</urgency>
+    <severity>Severe</severity>
+    <certainty>Observed</certainty>
+    <expires>2026-09-14T12:00:00+03:00</expires>
+    <senderName>Uganda National Situation Room (demo)</senderName>
+    <headline>ALERT: immunisation coverage falling in Kamwenge District</headline>
+    <description>Three-month Penta1 coverage is 69%; about 17,817 children in the last 12 months have received no Penta1 dose. Trigger: coverage falling below district baseline (CUSUM 25.9). SIMULATED DATA - EXERCISE.</description>
+    <instruction>District Health Team to verify vaccine stock and session reports, and plan catch-up outreach for unreached parishes.</instruction>
+    <area>
+      <areaDesc>Kamwenge District, Western Region, Uganda</areaDesc>
+      <polygon>0.5412,30.4281 0.5122,30.4645 0.4452,30.4920 0.4308,30.5237 0.2975,30.5504 0.3249,30.6311 0.3954,30.7188 0.4194,30.7806 0.4023,30.8339 0.4126,30.9078 0.3593,30.9181 0.3387,30.9026 0.2837,30.9198 0.2425,30.8614 0.1858,30.8528 0.1841,30.6878 0.1004,30.4749 -0.0283,30.4007 -0.1208,30.4276 -0.1559,30.4641 -0.1728,30.4165 -0.0977,30.1980 0.2635,30.2687 0.2276,30.3618 0.3708,30.3892 0.4234,30.3656 0.4853,30.3763 0.5412,30.4281</polygon>
+      <geocode>
+        <valueName>UG-DISTRICT</valueName>
+        <value>UG-D045</value>
+      </geocode>
+    </area>
+  </info>
+</alert>

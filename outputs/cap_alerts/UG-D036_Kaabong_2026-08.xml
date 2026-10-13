@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>UG-EWS-d7c2a888-aeb6-4eca-a615-cf5511b8c0aa</identifier>
+  <sender>situationroom@opm.go.ug.example</sender>
+  <sent>2026-08-15T12:00:00+03:00</sent>
+  <status>Exercise</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <info>
+    <language>en-UG</language>
+    <category>Health</category>
+    <event>Zero-dose children risk</event>
+    <responseType>Prepare</responseType>
+    <urgency>Expected</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <expires>2026-09-14T12:00:00+03:00</expires>
+    <senderName>Uganda National Situation Room (demo)</senderName>
+    <headline>WARNING: immunisation coverage falling in Kaabong District</headline>
+    <description>Three-month Penta1 coverage is 80%; about 6,509 children in the last 12 months have received no Penta1 dose. Trigger: 3-month Penta1 coverage 80%. SIMULATED DATA - EXERCISE.</description>
+    <instruction>District Health Team to verify vaccine stock and session reports, and plan catch-up outreach for unreached parishes.</instruction>
+    <area>
+      <areaDesc>Kaabong District, Northern Region, Uganda</areaDesc>
+      <polygon>3.7714,33.5277 4.2197,33.9771 4.2057,34.0060 4.1648,34.0411 4.1204,34.0410 4.0880,34.0693 4.0078,34.0611 3.9595,34.1071 3.8773,34.0848 3.8689,34.1080 3.8861,34.1829 3.8745,34.2050 3.8474,34.1967 3.8227,34.1490 3.7961,34.1790 3.7756,34.1525 3.7836,34.2409 3.7097,34.2789 3.7032,34.2904 3.7346,34.3371 3.6677,34.4397 3.5663,34.4439 3.4970,34.4155 3.4769,34.3813 3.4336,34.3986 3.3883,34.3840 3.3048,34.4241 3.1591,34.4449 3.1324,34.5129 3.0975,34.5456 3.0787,34.5081 3.0829,34.3285 3.1971,34.1576 3.2394,34.0362 3.2437,33.9062 3.2965,33.9035 3.2902,33.8458 3.3154,33.7951 3.3531,33.7434 3.4575,33.6746 3.5632,33.6299 3.6554,33.5647 3.7714,33.5277</polygon>
+      <geocode>
+        <valueName>UG-DISTRICT</valueName>
+        <value>UG-D036</value>
+      </geocode>
+    </area>
+  </info>
+</alert>

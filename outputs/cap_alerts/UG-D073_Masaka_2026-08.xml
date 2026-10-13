@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>UG-EWS-992c2f13-2fcc-43b3-9681-9bd6c62ee969</identifier>
+  <sender>situationroom@opm.go.ug.example</sender>
+  <sent>2026-08-15T12:00:00+03:00</sent>
+  <status>Exercise</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <info>
+    <language>en-UG</language>
+    <category>Health</category>
+    <event>Zero-dose children risk</event>
+    <responseType>Execute</responseType>
+    <urgency>Immediate</urgency>
+    <severity>Severe</severity>
+    <certainty>Observed</certainty>
+    <expires>2026-09-14T12:00:00+03:00</expires>
+    <senderName>Uganda National Situation Room (demo)</senderName>
+    <headline>ALERT: immunisation coverage falling in Masaka District</headline>
+    <description>Three-month Penta1 coverage is 55%; about 1,929 children in the last 12 months have received no Penta1 dose. Trigger: coverage falling below district baseline (CUSUM 20.1). SIMULATED DATA - EXERCISE.</description>
+    <instruction>District Health Team to verify vaccine stock and session reports, and plan catch-up outreach for unreached parishes.</instruction>
+    <area>
+      <areaDesc>Masaka District, Central Region, Uganda</areaDesc>
+      <polygon>-0.7739,31.8967 -0.7423,31.7730 -0.7037,31.7285 -0.6121,31.6764 -0.5203,31.6897 -0.4770,31.6602 -0.4700,31.6215 -0.4358,31.6300 -0.4017,31.6129 -0.3789,31.6186 -0.3362,31.6955 -0.2878,31.6955 -0.2622,31.7211 -0.2650,31.8919 -0.2304,31.9745 -0.2467,32.0062 -0.3114,32.0359 -0.3237,32.0653 -0.3500,32.0678 -0.4132,31.9862 -0.7739,31.9862 -0.7739,31.8967</polygon>
+      <geocode>
+        <valueName>UG-DISTRICT</valueName>
+        <value>UG-D073</value>
+      </geocode>
+    </area>
+  </info>
+</alert>
